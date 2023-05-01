@@ -1,0 +1,6 @@
+mvi b,08h
+mvi c,ffh
+mov a,b
+add c
+sta 0001h
+hlt
